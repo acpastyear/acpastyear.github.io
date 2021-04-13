@@ -251,7 +251,7 @@ section{
 }
 
 .skills li.html:after{
-    width: 75%
+    width: 90%
 }
 
 .skills li.css:after{
@@ -259,11 +259,11 @@ section{
 }
 
 .skills li.js:after{
-    width: 60%
+    width: 85%
 }
 
 .skills li.asstu:after{
-    width: 20%
+    width: 60%
 }
 
 .frame{
