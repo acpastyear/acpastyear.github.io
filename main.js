@@ -42,13 +42,13 @@ window.addEventListener("scroll", () => {
     });
 });
 
+
 if(window.innerWidth < 1200){
     burger = document.querySelector(".menu-btn");
     console.log(burger);
     burger.addEventListener("click", function(){
         nav.classList.toggle("close");
     })
-
 }
 
 var submitted = false;
