@@ -76,7 +76,7 @@ font-family: 'Montserrat', sans-serif;
     display: none;
 }
 
-section{
+.ssection{
     padding-top: 10px;
 }
 
@@ -391,6 +391,7 @@ th{
 @media (max-width: 1440px){
     .container{
         margin: 0 150px;
+        align-content: center;
     }
 
     .profile-pic{
@@ -400,6 +401,17 @@ th{
 
     .profile-pic img{
         height: 300px;
+    }
+    
+    .subtitle{
+        width: 75%;
+    }
+
+    .cv{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
     }
 
     .intro h3{
@@ -422,7 +434,7 @@ th{
     }
 
     .skills{
-        width: 85%;
+        width: 100%;
         padding: 0 25px;
         margin: 0 auto;
         height: 300px;
@@ -482,6 +494,42 @@ th{
         margin: 0;
         width: 100%;
     }
+    
+    .subtitle{
+        width: 60%;
+    }
+
+    .home{
+        padding: 90px 90px;
+        padding-top: 150px;
+        padding-bottom: 100px;
+        align-content: center;
+    }
+
+    .home-inner{
+        max-width: fit-content;
+        align-content: center;
+    }
+
+    .social{
+        max-width: fit-content;
+    }
+
+
+    .profile-pic{
+        margin: 0px;
+        margin-bottom: 30px;
+        align-content: center;
+    }
+
+    .social-media{
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    .cv{
+        font-size: 15px;
+    }
 
     .frame{
         width: 100%;
@@ -493,18 +541,53 @@ th{
     }
 }
 
-@media (max-width: 800px){
+@media (max-width: 1000px){
     .container{
         margin: 0 20px;
+    }
+
+    .subtitle{
+        width: 70%;
+    }
+}
+
+@media (max-width: 900px){
+    .subtitle{
+        margin: 100px;
+        margin-top: 150px;
+        margin-bottom: 50px;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+    }
+}
+
+@media (max-width: 800px){
+
+
+    .home{
+        padding: 100px 100px;
+        padding-top: 150px;
+        padding-bottom: 100px;
+        align-content: center;
     }
 
     .profile-pic{
         margin: 0;
         margin-bottom: 20px;
+        align-items: center;
     }
 
     .profile-pic img{
         height: 200px;
+    }
+
+    table, th, tr{
+        font-size: 12px;
+    }
+
+    th, td{
+        padding: 10px;
     }
 
     .intro h3{
@@ -514,7 +597,8 @@ th{
 
     .subtitle{
         font-size: 30px;
-        margin-bottom: 30px;
+        width: 70%;
+        margin-bottom: 0px;
     }
 
     table{
@@ -545,13 +629,71 @@ th{
     }
 }
 
+@media (max-width: 600px){
+    .home{
+        padding: 50px 50px;
+        padding-top: 150px;
+        padding-bottom: 100px;
+        align-content: center;
+    }
+
+  
+    .subtitle{
+        margin: auto;
+        margin-bottom: 30px;
+        margin-top: 80px;
+        align-content: center;
+    }
+
+    table, th, td{
+        font-size: 10px;
+        border: 1px solid black;
+    }
+}
+
 @media (max-width: 400px){
+    .intro{
+        padding-top: 0px;
+    }
+    
+    .intro h4{
+        font-size: 15px;
+    }
+
+    .profile-pic{
+        padding-top: 150px;
+    }
+
+    .home{
+        padding: 30px 30px;
+    }
+
+    .profile-pic{
+        align-self: center;
+    }
+    
+    .subtitle{
+        margin: 80px;
+        margin-bottom: 30px;
+        align-content: center;
+    }
+    
     .social{
-        font-size: 20px;
+        font-size: 15px;
     }
 
     .contact-form{
         margin: 0 2%;
         padding: 10px 10px;
     }
+}
+
+@media (max-width: 300px){
+
+    .home{
+        padding: 0px 50px;
+    }
+
+
+
 }
