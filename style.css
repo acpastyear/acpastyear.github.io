@@ -673,7 +673,8 @@ th{
     }
     
     .subtitle{
-        margin: 80px;
+        margin: auto;
+        margin-top: 80px;
         margin-bottom: 30px;
         align-content: center;
     }
@@ -686,14 +687,4 @@ th{
         margin: 0 2%;
         padding: 10px 10px;
     }
-}
-
-@media (max-width: 300px){
-
-    .home{
-        padding: 0px 50px;
-    }
-
-
-
 }
